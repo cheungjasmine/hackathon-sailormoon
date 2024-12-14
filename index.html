@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sailor Moon Fan Club</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <audio controls autoplay>
+          <source
+            src="./assets/audio/Moonlight_Densetsu.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+        <img src="./assets/images/banner.png" class="banner" />
+        <marquee behavior="scroll" direction="left"
+          >🌙 Welcome, Moonies! 🌟 Join the fight for love and justice!
+          🌙</marquee
+        >
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#game">Game</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section id="about">
+          <h2>About Sailor Moon</h2>
+          <p>
+            Sailor Moon is the magical girl who fights for love and justice!
+            Created by Naoko Takeuchi, this series captured the hearts of fans
+            worldwide with its iconic characters, epic battles, and timeless
+            themes of friendship and bravery.
+          </p>
+        </section>
+
+        <section id="characters">
+          <h2>Characters</h2>
+          <div class="characters">
+            <img src="./assets/images/Sailor_Moon.webp" alt="Sailor Moon" />
+            <img
+              src="./assets/images/Sailor_Mercury.webp"
+              alt="Sailor Mercury"
+            />
+            <img src="./assets/images/Sailor_Venus.webp" alt="Sailor Venus" />
+            <img
+              src="./assets/images/Sailor_Jupiter.webp"
+              alt="Sailor Jupiter"
+            />
+            <img src="./assets/images/Sailor_Mars.webp" alt="Sailor Mars" />
+            <img src="./assets/images/Tuxedo_Mask.webp" alt="Tuxedo Mask" />
+            <img src="./assets/images/Luna.webp" alt="Luna" />
+            <img src="./assets/images/Artemis.webp" alt="Artemis" />
+          </div>
+        </section>
+
+        <section id="game">
+          <h2>Game</h2>
+          <p id="status">Find all the matching pairs!</p>
+          <div id="game-board" class="grid"></div>
+          <button id="restart-button">Restart Game</button>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          ⭐ 2024 Codédex Mini Holiday Hackathon |
+          <a href="https://github.com/cheungjasmine/hackathon-sailormoon"
+            >GitHub</a
+          >
+          ⭐
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
