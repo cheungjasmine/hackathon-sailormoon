@@ -65,19 +65,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* .characters {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.characters img {
-  width: 150px;
-  height: auto;
-  border: 3px solid #d6b6ad;
-  box-shadow: 5px 5px 10px gray;
-} */
-
 .image-text-table {
   width: 80%;
   margin: 0 auto;
