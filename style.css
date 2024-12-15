@@ -55,6 +55,7 @@ main {
   background: white;
   border: 3px dashed #d6b6ad;
   box-shadow: 5px 5px 15px gray;
+  color: #333;
 }
 
 h2 {
@@ -64,7 +65,7 @@ h2 {
   text-decoration: underline;
 }
 
-.characters {
+/* .characters {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -75,6 +76,39 @@ h2 {
   height: auto;
   border: 3px solid #d6b6ad;
   box-shadow: 5px 5px 10px gray;
+} */
+
+.image-text-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-table td {
+  padding: 15px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.image-text-table td img {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.image-text-table td:first-child {
+  width: 30%;
+}
+
+.image-text-table td:last-child {
+  width: 70%;
+  text-align: left;
+}
+
+.image-text-table p {
+  padding: 50px;
 }
 
 .grid {
